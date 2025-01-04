@@ -8,10 +8,14 @@
 > ```shell script
 > git config -l 
 
+---
+
 > ### ▶️ Editar email
 > ```shell script
 > git config --global user.email "<email>"
 > ```
+
+---
 
 > ### ▶️ **Desactivar la verificación SSL**
 > ```shell script

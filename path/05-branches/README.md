@@ -4,7 +4,6 @@
 
 ----
 
-
 Una rama es una bifurcación del estado de nuestro código, en la cual podemos experimentar cambios sin alterar la 
  rama que tiene la versión estable de nuestro proyecto.
 

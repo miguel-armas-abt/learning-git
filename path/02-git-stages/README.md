@@ -30,11 +30,15 @@ Representa los diferentes estados por los que pasan los archivos en Git.
 > git init
 > ```
 
+---
+
 > ### ▶️ Vincular al repositorio remoto
 > Establece el repositorio remoto llamado `origin` y le asigna la URL.
 > ```shell script
 > git remote add origin <url-repository>
 > ```
+
+---
 
 > ### ▶️ Clonar un repositorio
 > - Podemos especificar el nombre de la carpeta 📁 en la que se descargará el repositorio.
@@ -45,12 +49,16 @@ Representa los diferentes estados por los que pasan los archivos en Git.
 > git clone -b <branch-name> <url-repository> <directory-name>
 > ```
 
+---
+
 > ### ▶️ Enviar cambios al <u>staging area</u>
 > Podemos especificar cada archivo a la vez o podemos utilizar `.` para enviar todo. 
 > ```shell script
 > git add <file-name>
 > git add .
 > ```
+
+---
 
 > ### ▶️ Enviar cambios al <u>local repository</u>
 > - Podemos utilizar `-am` para realizar en un solo paso `add` y `commit` <u>sobre los archivos que ya están trackeados</u>.
@@ -63,10 +71,14 @@ Representa los diferentes estados por los que pasan los archivos en Git.
 > git commit
 > ```
 
+---
+
 > ### ▶️ Enviar cambios al <u>remote repository</u>
 > ```shell script
 > git push -u origin <branch-name>
 > ```
+
+---
 
 > ### ▶️ Descargar cambios del remote repository
 > - El `git pull` funciona como un `git fetch` en combinación con `git merge`.

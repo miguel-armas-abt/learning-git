@@ -1,4 +1,6 @@
-# MANIPULAR COMMITS
+# MANIPULAR CAMBIOS
+
+[← Regresar a notas](../../README.md) <br>
 
 ----
 
@@ -34,16 +36,17 @@
 > git commit --amend --no-edit
 > git commit --amend
 > ```
+> 💡 Recuerde subir sus nuevos cambios al staging area antes de enmendar el commit.
 
 ----
 
-▶️ **Mostrar el historial de commits**
-- Utilice `--stat` para mostrar los archivos que fueron modificados en cada commit.
-- Puede indicar un archivo específico.
-```shell script
-git log
-git log --stat
-git log <filename.txt>
-```
+> ### ▶️ Mostrar el historial de commits
+> - Utilice `--stat` para mostrar los archivos que fueron modificados en cada commit.
+> - Puede indicar un archivo específico.
+> ```shell script
+> git log
+> git log --stat
+> git log <filename.txt>
+> ```
 
 ----

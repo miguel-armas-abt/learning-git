@@ -14,13 +14,13 @@ Representa los diferentes estados por los que pasan los archivos en Git.
 | 3   | `Local Repository`  | Copia del repositorio de Git que reside en tu máquina local.          |                                             |
 | 4   | `Remote Repository` | Versión centralizada del repositorio de Git.                          |                                             |
 
-<img src="../../images/git_stages.png" width="700" height="300">
+<img src="resources/git_stages.png" width="700" height="300">
 
 ## 2. Inicializar y clonar un repositorio
 - **Inicializar repositorio**: Crear un nuevo repositorio desde cero.
 - **Clonar repositorio**: Copiar un repositorio existente.
 
-<img src="../../images/git-init-and-clone.png" width="640" height="400">
+<img src="resources/git-init-and-clone.png" width="640" height="400">
 
 ## 3. Diccionario de comandos
 

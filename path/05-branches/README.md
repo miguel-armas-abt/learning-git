@@ -7,7 +7,7 @@
 Una rama es una bifurcación del estado de nuestro código, en la cual podemos experimentar cambios sin alterar la 
  rama que tiene la versión estable de nuestro proyecto.
 
-<img src="../../images/git-branch.png" width="600" height="200">
+<img src="resources/git-branch.png" width="600" height="200">
 
 
 > 📌 `HEAD` es un puntero que apunta al último commit de la rama actual sobre la que estás trabajando. 

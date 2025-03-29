@@ -4,18 +4,20 @@
 
 ----
 
-> ### ▶️ Regresar el estado de un archivo a un commit específico
+> ### ▶️ Mostrar el historial de commits
+> - Utilice `--all` para mostrar todos los detalles del commit.
+> - Utilice `--oneline` para mostrar solo el hash y el mensaje.
+> - Utilice `--graph` para mostrar la bifurcación de las ramas.
+> - Utilice `--stat` para mostrar los archivos que fueron modificados en cada commit.
+> - Utilice `-S` para filtrar los commits que contengan una palabra en los mensajes de confirmación.
+> - Puede indicar un archivo específico.
 > ```shell script
-> git checkout <commit-id> <filename.txt>
+> git log
+> git log --oneline --graph
+> git log --stat
+> git log <filename.txt>
+> git log -S "<match-word>"
 > ```
-
-----
-
-> ### ▶️ Mostrar las diferencias entre dos commits
-> ```shell script
-> git diff <commit-id1> <commit-id2>
-> ```
-
 ----
 
 > ### ▶️ Mostrar información de un commit
@@ -25,7 +27,18 @@
 > git show
 > git show <commit-id>
 > ```
+----
 
+> ### ▶️ Mostrar las diferencias entre dos commits
+> ```shell script
+> git diff <commit-id1> <commit-id2>
+> ```
+----
+
+> ### ▶️ Regresar el estado de un archivo a un commit específico
+> ```shell script
+> git checkout <commit-id> <filename.txt>
+> ```
 ----
 
 > ### ▶️ Enmendar commit
@@ -40,13 +53,8 @@
 
 ----
 
-> ### ▶️ Mostrar el historial de commits
-> - Utilice `--stat` para mostrar los archivos que fueron modificados en cada commit.
-> - Puede indicar un archivo específico.
-> ```shell script
-> git log
-> git log --stat
-> git log <filename.txt>
+> ### ▶️ Traer un commit de otra rama y modificar el historial de la rama actual
 > ```
-
+> git cherry-pick <commit-id>
+> ```
 ----

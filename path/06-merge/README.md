@@ -7,7 +7,7 @@
 - Un merge es la creación de un nuevo commit a partir de la combinación de una rama con otra.
 - Debemos situarnos con `checkout` sobre la rama absorbedora, y a continuación absorber `merge` los commits de la otra rama absorbida.
 
-<img src="../../images/git-merge.png" width="700" height="250">
+<img src="resources/git-merge.png" width="700" height="250">
 
 > 📌 Hay dos tipos de merge:
 > > ✅ **Fast forward** 
